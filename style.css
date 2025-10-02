@@ -29,3 +29,21 @@ img {
     max-width: 100%; 
     width: 10rem;
 }
+a:hover {
+text-decoration: underline;
+font-size: 10rem;
+}
+
+.card {
+    background-color: crimson;
+    transition: all 0.2 ease-in-out;
+}
+
+.card:hover{
+    border-color: red;
+    transform: scale(200%);
+}
+
+video{
+    max-width: 90%;
+}
